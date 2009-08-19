@@ -1,0 +1,5 @@
+Eclipse OS is an Equinox server that provides access to the local system for browser based UIs like Chrome. This came about when I created a Chrome OS look-a-like based on Fedora and then noticed I needed some way of doing things on the local system. Given how well GWT works with Equinox OSGi/Jetty, it's an obvious choice for creating local web services that provide this access.
+
+This is a long journey to understanding what such an architecture would look like. Things like security come to mind. Provisioning using p2 with a web UI to p2 is probably one of the early services needed. Editing docs and things locally, storing and playing media files, the list can get quite long.
+
+This isn't meant to turn into a product. It's just an instrument of learning. But if it leads somewhere interesting and others are interested in contributing, maybe it can.
