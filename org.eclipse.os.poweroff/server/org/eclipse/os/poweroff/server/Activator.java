@@ -1,4 +1,4 @@
-package org.eclipse.os.home.server;
+package org.eclipse.os.poweroff.server;
 
 import java.io.InputStream;
 import java.net.URL;
@@ -14,13 +14,13 @@ import com.google.gwt.user.server.rpc.SerializationPolicy;
 import com.google.gwt.user.server.rpc.SerializationPolicyLoader;
 
 public class Activator extends Plugin {
-	
+
 	private static Activator singleton;
 	
 	public Activator() {
 		singleton = this;
 	}
-	
+
 	public static String getID() {
 		return singleton.getBundle().getSymbolicName();
 	}

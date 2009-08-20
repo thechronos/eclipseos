@@ -14,7 +14,6 @@
 
    <plugins>
       <plugin id="com.google.gwt"/>
-      <plugin id="home" fragment=""/>
       <plugin id="javax.servlet"/>
       <plugin id="javax.servlet.jsp"/>
       <plugin id="org.apache.ant"/>
@@ -33,6 +32,8 @@
       <plugin id="org.eclipse.equinox.http.servlet"/>
       <plugin id="org.eclipse.equinox.preferences"/>
       <plugin id="org.eclipse.equinox.registry"/>
+      <plugin id="org.eclipse.os.home"/>
+      <plugin id="org.eclipse.os.poweroff"/>
       <plugin id="org.eclipse.osgi"/>
       <plugin id="org.eclipse.osgi.services"/>
       <plugin id="org.mortbay.jetty.server"/>

@@ -50,9 +50,7 @@
    <element name="app">
       <annotation>
          <documentation>
-            
             Web app
-         
          </documentation>
       </annotation>
       <complexType>
@@ -63,7 +61,7 @@
                </documentation>
             </annotation>
          </attribute>
-         <attribute name="start page" type="string">
+         <attribute name="startPage" type="string">
             <annotation>
                <documentation>
                   

@@ -12,8 +12,8 @@
    <extension
          point="org.eclipse.equinox.http.registry.servlets">
       <servlet
-            alias="/home/greet"
-            class="org.eclipse.os.home.server.GreetingServiceImpl">
+            alias="/home/apps"
+            class="org.eclipse.os.home.server.AppsServiceImpl">
       </servlet>
    </extension>
    <extension
@@ -29,7 +29,7 @@
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            application="home.app"
+            application="org.eclipse.os.home.app"
             name="Eclipse OS">
          <property
                name="appName"
