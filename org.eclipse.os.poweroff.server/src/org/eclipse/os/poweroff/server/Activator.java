@@ -5,8 +5,6 @@ import java.net.URL;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.eclipse.core.runtime.IPath;
-import org.eclipse.core.runtime.Path;
 import org.eclipse.core.runtime.Platform;
 import org.eclipse.core.runtime.Plugin;
 import org.eclipse.core.runtime.Status;
