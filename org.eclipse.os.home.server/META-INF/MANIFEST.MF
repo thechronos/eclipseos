@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Server
+Bundle-SymbolicName: org.eclipse.os.home.server;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipse.os.home.server.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ com.google.gwt;bundle-version="1.7.0",
+ org.eclipse.equinox.http.registry;bundle-version="1.0.200"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.eclipse.os.home.client,
+ org.eclipse.os.home.server
+Eclipse-RegisterBuddy: com.google.gwt

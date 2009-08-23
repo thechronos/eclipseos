@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.os.home.server.apps">
+      <app
+            name="Power Off"
+            startPage="/poweroff/poweroff.html">
+      </app>
+   </extension>
+   <extension
+         point="org.eclipse.equinox.http.registry.servlets">
+      <servlet
+            alias="/poweroff/poweroff/service"
+            class="org.eclipse.os.poweroff.server.PowerOffServiceImpl">
+      </servlet>
+   </extension>
+</plugin>
