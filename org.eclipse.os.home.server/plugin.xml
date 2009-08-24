@@ -22,7 +22,7 @@
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            application="org.eclipse.os.home.app"
+            application="org.eclipse.os.home.server.app"
             name="Eclipse OS">
          <property
                name="appName"
