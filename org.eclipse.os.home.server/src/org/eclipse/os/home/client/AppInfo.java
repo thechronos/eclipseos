@@ -7,6 +7,10 @@ public class AppInfo implements IsSerializable {
 	private String name;
 	private String url;
 	
+	/**
+	 * Get name.
+	 * @return
+	 */
 	public String getName() {
 		return name;
 	}
